@@ -7,13 +7,24 @@ body {
     background-size: auto;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 form {
+    
     display: flex;
+    width: max-content;
     align-items: center;
     flex-direction: column;
 }
 
+input, button {
+    margin-right: 20px;
+    border-radius: 5px;
+}
 
 div {
     display: flex;
@@ -54,6 +65,7 @@ section {
 #ausgabe {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 3px dotted ;
+    border-radius: 5px;
     font-size: 30px;
     
 }

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<main>
+    <form action="javascript:calcBMI()">
+
+        <p>Geschlecht</p>
+        <div>
+            <label for="Männlich">Männlich</label><br>
+            <input type="radio" id="Männlich" name="Geschlecht" value="1">
+            <label for="Weiblich">Weiblich</label><br>
+            <input type="radio" id="Weiblich" name="Geschlecht" value="0">
+
+
+                
+         </div>
+         
+         <!-- <label for="Alter">Alter</label>
+         <input type="number" id="Alter"> -->
+
+  
+
+      
+        <label for="Gewicht">Gewicht in Kg </label>
+        <input type="number" id="Gewicht" min="1">
+
+     
+        <label for="Größe">Größe in Meter</label>
+        <input type="number" id="Größe" min="1" step="0.01">
+
+
+        <p>Berechnen Sie Ihren BMI</p>
+        <button type="submit" id="btn">Berechnung</button>
+        <span id="ausgabe"></span>
+
+    </form>
+
+    <section class="zeigtM nonvisible">
+        <h2>Ergebnisse für Männer </h2>
+        <table class="tg">
+            <thead>
+              <tr>
+                <th ><span>Interpretieren des Ergebnisses</span></th>
+                <th ><span>Ergebnisse für Personen bis 35 Jahre</span></th>
+                <th ><span>Ergebnisse für Personen über 35 Jahre</span></th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td ><span>Untergewicht</span></td>
+                <td ><span>unter 19</span></td>
+                <td ><span>unter 19</span></td>
+               
+              </tr>
+              <tr>
+                <td ><span>Korrektes Gewicht</span></td>
+                <td ><span>19–</span><span>24</span></td>
+                <td ><span>19–</span><span>26</span></td>
+               
+              </tr>
+              <tr>
+                <td ><span>Übergewicht</span></td>
+                <td ><span>24–</span><span>30</span></td>
+                <td ><span>26–</span><span>30</span></td>
+               
+              </tr>
+              <tr>
+                <td ><span>Fettleibigkeit</span></td>
+                <td ><span>30–35</span></td>
+                <td ><span>30–35</span></td>
+               
+              </tr>
+              <tr>
+                <td ><span>Übergewicht riesig</span></td>
+                <td ><span>Über 35</span></td>
+                <td ><span>Über 35</span></td>
+               
+              </tr>
+            </tbody>
+            </table>
+    </section>
+    <section class="zeigtF nonvisible">
+        <h2>Ergebnisse für Frauen</h2>
+        <table class="tg">
+            <thead>
+              <tr>
+                <th ><span>Interpretieren des Ergebnisses</span></th>
+                <th ><span>Ergebnisse für Personen bis 35 Jahre</span></th>
+                <th ><span>Ergebnisse für Personen über 35 Jahre</span></th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td ><span>Untergewicht</span></td>
+                <td ><span>unter 19</span></td>
+                <td ><span>unter 19</span></td>
+               
+              </tr>
+              <tr>
+                <td ><span>Korrektes Gewicht</span></td>
+                <td ><span>19–</span><span>25</span></td>
+                <td ><span>19–</span><span>27</span></td>
+               
+              </tr>
+              <tr>
+                <td ><span>Übergewicht</span></td>
+                <td ><span>25–</span><span>30</span></td>
+                <td ><span>27–</span><span>30</span></td>
+               
+              </tr>
+              <tr>
+                <td ><span>Fettleibigkeit</span></td>
+                <td ><span>30–35</span></td>
+                <td ><span>30–35</span></td>
+               
+              </tr>
+              <tr>
+                <td ><span>Übergewicht riesig</span></td>
+                <td ><span>Über 35</span></td>
+                <td ><span>Über 35</span></td>
+               
+              </tr>
+            </tbody>
+            </table>
+    </section>
+    <section class="standard ">
+        <img src="https://2.bp.blogspot.com/-eDaROh1015I/Voif29gHfdI/AAAAAAAAJno/7QLtHp_r2rs/s1600/Bodyweight-Source-animated-gifs.eu_.gif" alt="">
+    </section>
+</main>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

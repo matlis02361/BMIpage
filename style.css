@@ -1,0 +1,58 @@
+
+body {
+    background-image: url(http://i.wpimg.pl/1920x0/portal-abczdrowie.wpcdn.pl/imageCache/2018/10/23/55252424-m_af50.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+div {
+    display: flex;
+    margin: 10px;
+
+}
+
+p {
+
+    font-weight: bolder;
+}
+
+.nonvisible {
+   
+    display: none;
+
+}
+
+th, td {
+    width: 300px;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(227, 213, 213, 0.8) ;
+
+ 
+    
+}
+
+section {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}   
+
+
+#ausgabe {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px dotted ;
+    font-size: 30px;
+    
+}
